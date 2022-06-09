@@ -1,0 +1,185 @@
+@media all and (min-width:1200px){
+.mobile{
+    display: none;
+}
+
+.pc{
+    display: block;
+}
+
+header button{
+    display: none;
+}
+h1 .pc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+h1 img{
+    width: auto;
+}
+
+
+header{
+    border-top: 4px solid #a57dff;
+    background-color: transparent;
+    height: auto;
+
+}
+.hwrap{
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+nav{
+    display: block;
+    position: unset;
+    background-color: transparent;
+}
+
+.gnb{
+    margin-top: 20px;
+    font-size: 20px;
+    color:#363636;
+    display: flex;
+    justify-content: center;
+}
+
+.gnb li{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.util{
+    color:#363636;
+    position: absolute;
+    top:20px;
+    right: 0;
+    font-size: 14px;
+}
+
+.bn .tablet{
+    display: none;
+}
+
+.bn{
+    height: 560px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bn a{
+    display: block;
+    height: 100%;
+}
+
+.s2 .con{
+    flex-wrap: nowrap;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.s2 h2{
+    font-size: 28px;
+}
+.s2 .item a{
+    display: block;
+}
+
+.s2 .item{
+    width: 25%;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 20px rgba(183,163,185,0.5);
+}
+
+.s2 .item:last-child{
+    margin-right: 0;
+}
+
+.s2 .pic{
+    padding: 0;
+}
+
+.s2 .item img{
+ 
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+}
+
+.s2 .txt{
+    padding: 20px 20px 40px;
+ 
+}
+
+.btnplus{
+    display: none;
+}
+
+.s3{
+    margin-bottom: 96px;
+}
+
+.s4{
+    padding:0;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s4 .sns{
+    position: unset;
+    transform: unset;
+}
+
+.s4 .item .pc{
+    width: 100%;
+    height: 100%;
+}
+
+.sns ul{
+    position: absolute;
+    top:270px;
+    left: 40px;
+}
+
+.s5{
+    text-align: center;
+}
+
+.s5 img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+
+
+.s5 p{
+    font-family: 'pretendard';
+    color:#363636;
+    margin-top: 12px;
+    font-size: 14px;
+    margin-bottom: 36px;
+
+}
+
+.fwrap{
+    padding:0;
+}
+
+}
+/* pc 1200px */

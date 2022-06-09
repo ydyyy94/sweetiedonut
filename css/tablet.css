@@ -1,0 +1,132 @@
+@media all and (min-width:768px){
+.bn .mobile{
+    display: none;
+}
+
+.tablet{
+    display: block;
+}
+
+.s1{
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s1 .item{
+    width: 50%;
+    margin-bottom: 48px;
+}
+.s1 .txt1, .s1 .txt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s1 .txt1{
+    text-align: left;
+
+}
+
+.s1 .txt2{
+    text-align: right;
+}
+
+.s1 .photo2{
+    order:2;
+}
+
+.s1 .txt1{
+ 
+}
+
+.s2 h2{
+    margin-bottom: 24px;
+}
+.s2 .con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.s2 .item{
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.s2 .btnplus{
+    margin-top: 24px;
+}
+
+.s3:after{
+    content: none;
+}
+
+.s3{
+    background-position: unset;
+    padding-left: 100px;
+}
+
+.s3 .txt{
+    text-align: left;
+}
+
+.s3 .btn{
+    max-width: 1320px;
+    display: flex;
+}
+
+.s3 em{
+    font-style: normal;
+    font-family: 'donut';
+    font-size: 30px;
+}
+
+.s3 h2{
+    margin-top: 12px;
+    font-size: 28px;
+}
+
+
+.s3 a{
+    margin-top: 24px;
+    margin-right: 12px;
+    margin-left: 0;
+}
+
+.s3 .btn a{
+    width: 120px;
+}
+
+.s4{
+    position: relative;
+    display: flex;
+    padding-top: 180px;
+}
+
+.s4 .sns{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.fwrap{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+}
